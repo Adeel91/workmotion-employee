@@ -1,0 +1,48 @@
+html,
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.layout {
+  height: 100vh;
+}
+
+.splash-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://workmotion.com/wp-content/themes/workmotion/images/footer-desktop-bg.jpeg");
+  background-repeat: repeat-x;
+  background-size: cover;
+  background-color: #074946;
+  height: 100%;
+}
+
+.layout-section {
+  background-color: #074946;
+  z-index: 3;
+  position: fixed;
+  width: 100%;
+  padding: 10px 30px;
+}
+
+.header {
+  max-width: 1200px;
+  padding: 0 5px;
+}
+
+.right-aligned {
+  display: flex;
+  justify-content: flex-end;
+}

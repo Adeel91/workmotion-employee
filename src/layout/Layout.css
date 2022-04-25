@@ -1,0 +1,10 @@
+.mainStyle {
+  flex-grow: 1;
+  overflow: auto;
+  min-height: 100%;
+  padding: 120px 20px;
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-direction: column;
+}

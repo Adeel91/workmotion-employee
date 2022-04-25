@@ -1,0 +1,32 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "John Beck",
+      "location": "Bernau bei Berlin, Brandenburg",
+      "department": "Engineering Department",
+      "status": 0
+    },
+    {
+      "id": 2,
+      "name": "Jane Doe",
+      "location": "Siegen, Nord-Rhein Westfalen",
+      "department": "Sales Department",
+      "status": 1
+    },
+    {
+      "id": 3,
+      "name": "Alice Stephan",
+      "location": "Eberswalde, Brandenburg",
+      "department": "Marketing Department",
+      "status": 0
+    },
+    {
+      "id": 4,
+      "name": "Bob Flemke",
+      "location": "Frankfurt am Main, Hessen",
+      "department": "Engineering Department",
+      "status": 2
+    }
+  ]
+}

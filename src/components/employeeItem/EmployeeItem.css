@@ -1,0 +1,77 @@
+.posting {
+  border-radius: 0.7rem;
+  background: #ffffff;
+  color: #666;
+  cursor: pointer;
+  margin: 1rem 0;
+  padding: 1rem 2rem;
+  box-shadow: 2px 5px 8px #ddd;
+  text-decoration: none;
+  border: 1px solid #0749462a;
+}
+
+.posting .row {
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.posting .image {
+  padding: 0.7rem 0 0.7rem;
+  min-width: 30px;
+}
+
+.posting .card-body {
+  font-size: 0.85rem;
+  margin: 0;
+  padding: 1rem 0;
+}
+
+.posting .title {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #074946;
+}
+
+.posting .location,
+.posting .department {
+  margin-bottom: 0.2rem;
+}
+
+.posting .info {
+  margin: 1rem 0;
+  text-align: right;
+}
+
+.posting .info .label {
+  background: #e2e2e2;
+  width: 40%;
+  display: inline-flex;
+  margin-right: 0.5rem;
+  padding: 0.5rem;
+  font-size: 0.75rem;
+  font-weight: bold;
+  border-radius: 0.3rem;
+  color: #fff;
+  justify-content: center;
+}
+
+.posting .info .employment {
+  background: #00ae41;
+}
+
+.posting .info .experience {
+  background: #1880c6;
+}
+
+.posting .timestamp {
+  color: #00ae41;
+}
+
+.posting .status {
+  width: 100%;
+}
+
+.posting:hover {
+  background-color: #0b41af0d;
+}

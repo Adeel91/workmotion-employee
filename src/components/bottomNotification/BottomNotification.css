@@ -1,0 +1,17 @@
+.content {
+  box-shadow: none;
+  background: linear-gradient(
+    150deg,
+    rgba(0, 83, 89, 1),
+    rgba(2, 93, 74, 1) 70.71%
+  );
+  border-top: 2px solid #184c3a;
+  color: #fff;
+  position: fixed;
+  line-height: 50px;
+  bottom: 0;
+  z-index: 1201;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
